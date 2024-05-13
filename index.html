@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      body,
+      html {
+        /* box-sizing: border-box; */
+        height: 100%;
+        background-color: hsl(212, 45%, 89%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Outfit;
+        margin: 0;
+      }
+      .qr-card {
+        background-color: hsl(0, 0%, 100%);
+        width: 280px;
+        padding: 12px;
+        border-radius: 20px;
+        text-align: center;
+      }
+      .qr-card img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+      p {
+        
+        margin-top: 15px;
+        background-color: white;
+        color: black;
+        padding-left: 18px;
+        padding-right: 18px;
+        border-radius: 5px;
+      }
+      .header {
+        font-size: 20px;
+        font-weight: 700;
+        
+        /* padding: 10px; */
+      }
+      .description{
+        font-size: 15px;
+        font-weight: 400;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="qr-card">
+      <img src="/images/image-qr-code.png" />
+      <p>
+        <span class="header">
+          Improve your front-end skills by building projects
+        </span>
+        <p class="description">Scan the QR code to visit Frontend Mentor and take your coding skills to
+        the next level</p>
+        
+      </p>
+    </div>
+  </body>
+</html>
